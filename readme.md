@@ -1,123 +1,88 @@
-<p align="center">
-    <img width="300px" src=".github/assets/logo_2.png">
+🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal
+<p align="center"> <img width="300px" src=".github/assets/logo_2.png" alt="Projeto Logo"> 
+</p> 
+<p align="center"> <a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a> 
+    <a href="https://www.gnu.org/software/bash/" title="Go to Bash homepage"><img src="https://img.shields.io/badge/Prompt-Project-FED564?logo=gnu-bash&amp;logoColor=white" alt="Made with Bash"></a> 
+    <a href="https://aws.amazon.com/" title="Powered by AWS"> <img src="https://img.shields.io/badge/Powered%20by-AWS-FED564?logo=icloud&logoColor=white" alt="Powered by AWS"> </a> 
 </p>
+📝 Introdução
+O Assistente de Personal Trainer - Gerador de Treino Ideal é um projeto desenvolvido para personal trainers e entusiastas de academia que buscam automatizar a criação de treinos personalizados. <br> Este projeto visa criar um prompt inteligente que auxilia na montagem de treinos baseados em biotipos corporais, disponibilidade de dias para treino, e tipos de exercícios preferidos. <br> O objetivo principal é que o assistente gere um plano de treino eficiente e adaptado às necessidades individuais do usuário.
+<b><br>
+📋 Índice<br>
+📝 Introdução<br>
+💪 Biotipos Corporais<br>
+📅 Dias Disponíveis para Treino<br>
+🏋️ Tipos de Exercícios<br>
+🛠️ Regras de Negócio<br>
+📖 Material de Apoio<br>
+🎯 Prompt de Resposta Proposto<br>
+🚀 Como Usar<br>
+🔧 Tecnologias Utilizadas<br>
+🤝 Contribuições<br>
+📝 Licença<br>
+💪 Biotipos Corporais<br>
+    
+A primeira etapa para personalizar um plano de treino eficiente é identificar o biotipo corporal do usuário. Existem três principais biotipos, cada um com características específicas que influenciam como o corpo reage ao treinamento e à dieta:
+<br>
 
-<p align="center">
-<a href="https://dio.me/"><img src="https://img.shields.io/badge/DIO-Project-FED564?logo=youtube" alt="DIO - Project"></a>
-<a href="https://www.gnu.org/software/bash/" title="Go to Bash homepage"><img src="https://img.shields.io/badge/Prompt-Project-FED564?logo=gnu-bash&amp;logoColor=white" alt="Made with Bash"></a>
-<a href="https://aws.amazon.com/" title="Powered by AWS">
-  <img src="https://img.shields.io/badge/Powered%20by-AWS-FED564?logo=icloud&logoColor=white" alt="Powered by AWS">
-</a>
-</p>
+Imagem	Biotipo	Descrição<br>
+	Ectomorfo	Corpo mais magro, com dificuldade em ganhar peso e massa muscular.<br>
+	Mesomorfo	Corpo naturalmente musculoso, facilidade em ganhar massa muscular e perder gordura.<br>
+	Endomorfo	Corpo com tendência a acumular gordura, dificuldade em perder peso.<br>
+Nota: Escolha o biotipo que mais se assemelha ao seu corpo atual para garantir um treino mais eficiente e adaptado às suas necessidades.<br>
+<br>
 
-<p align="center">
-  <h3 align="center">🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal</h3>
-Este projeto é um desafio de Prompt Engineer, onde o objetivo é criar um prompt que ajuda a montar o treino ideal para cada combinação de fatores, como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por esse prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário.
-O projeto deve ser feito utilizando as boas práticas de prompt engineer.
-</p>
+📅 Dias Disponíveis para Treino<br>
+A segunda etapa para personalizar o treino é determinar quantos dias por semana o usuário pode dedicar aos treinos.<br> Com base nisso, o assistente sugerirá diferentes tipos de treino:
 
-## 📋 Índice
+Imagem	Dias por Semana	Tipo de Treino Sugerido<br>
+	1 dia	Treino Full Body (treino completo para todo o corpo em uma única sessão).<br>
+	3 dias	Treino ABC (divisão em três dias, com foco em grupos musculares diferentes a cada dia).<br>
+	5 dias	Treino ABCDE (divisão em cinco dias, com foco em grupos musculares específicos a cada dia).<br>
+ <br>
+ 
+🏋️ Tipos de Exercícios
+O próximo passo é selecionar o tipo de exercício preferido. O assistente gera um plano de treino personalizado com base nos exercícios mais adequados ao gosto e ao objetivo do usuário. As principais categorias são:
 
-- [📋 Índice](#-índice)
-- [📝 Introdução](#-introdução)
-- [💪 Biotipos Corporais](#-biotipos-corporais)
-- [📅 Dias Disponíveis para Treino](#-dias-disponíveis-para-treino)
-- [🏋️ Tipos de Exercícios](#️-tipos-de-exercícios)
-- [🛠️ Regras de negócio](#️-regras-de-negócio)
-- [📖 Material de Apoio](#-material-de-apoio)
-- [🎯 Prompt de Resposta Proposto](#-prompt-de-resposta-proposto)
 
----
+Imagem	Tipo de Treino	Descrição<br>
+	Funcional	Exercícios que melhoram a funcionalidade do corpo, focando em movimentos naturais.<br>
+	Maquinário	Exercícios realizados em máquinas, com foco em isolar grupos musculares específicos.<br>
+	Peso Livre	Exercícios com pesos livres, como halteres e barras, que trabalham vários grupos musculares simultaneamente.<br>
+	Cardio	Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.<br>
+	HIIT	Treinos intervalados de alta intensidade, ótimos para a queima de gordura.<br>
+ <br>
+ 
+🛠️ Regras de Negócio
+As regras de negócio definem como o assistente gerará o plano de treino baseado nas preferências do usuário:
 
-## 📝 Introdução
+Identifique seu biotipo corporal:<br>
+Use a seção de biotipos para encontrar o mais adequado ao seu corpo.<br>
+Determine quantos dias por semana você pode treinar:<br>
+Isso ajudará a escolher o tipo de treino mais adequado.<br>
+Selecione o tipo de exercício que você prefere:<br>
+Escolha exercícios que se alinhem aos seus objetivos e gostos pessoais.<br>
+Use o assistente para gerar um plano de treino personalizado: <br>
+Após fornecer as informações, o prompt gerará um plano adequado.<br>
+<br>
+📖 Material de Apoio
+Aqui estão alguns materiais de apoio que podem ser úteis para entender melhor o projeto e as boas práticas de engenharia de prompts:
+<br>
+Fundamentos de Engenharia de Prompt
+Boas práticas de Prompt
+<br>
 
-Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações como o biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido, e o assistente gerará um plano de treino ideal com base nessas informações.
+🎯 Prompt de Resposta Proposto
+O prompt ideal para este assistente seria estruturado da seguinte maneira:
 
----
+diff
+Copiar código
+Como posso personalizar um plano de treino ideal com base nas seguintes informações:
+- Meu biotipo é [Ectomorfo/Mesomorfo/Endomorfo].
+- Tenho [X] dias disponíveis por semana para treinar.
+- Prefiro [Funcional/Maquinário/Peso Livre/Cardio/HIIT].
+  <br>
+Quais exercícios devo realizar para atingir meus objetivos?
+<br>
+Esse prompt gera um plano de treino que se adapta às características e preferências de cada usuário.
 
-## 💪 Biotipos Corporais
-
-A primeira regra para personalizar o treino é determinar o biotipo corporal do usuário. Existem três biotipos principais:
-
-<table>
-  <tr>
-    <th>Imagem</th>
-    <th>Biotipo</th>
-    <th>Descrição</th>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src=".github/assets/ectomorph.jpg" width="50%" height="50%">
-    </td>
-    <td><strong>Ectomorfo</strong></td>
-    <td>Corpo mais magro, difícil ganhar peso e massa muscular.</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src=".github/assets/mesomorph.jpg" width="50%" height="50%">
-    </td>
-    <td><strong>Mesomorfo</strong></td>
-    <td>Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.</td>
-  </tr>
-  <tr>
-    <td style="text-align: center;">
-      <img src=".github/assets/endmorph.jpg" width="50%" height="50%">
-    </td>
-    <td><strong>Endomorfo</strong></td>
-    <td>Corpo com tendência a acumular gordura, maior dificuldade em perder peso.</td>
-  </tr>
-</table>
-
-> **Nota:** Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
-
----
-
-## 📅 Dias Disponíveis para Treino
-
-A segunda regra é determinar quantos dias por semana o usuário tem disponível para treinar. Dependendo do número de dias, o treino sugerido pode variar:
-
-| **Imagem**                                                     | **Dias por Semana** | **Tipo de Treino Sugerido** |
-| -------------------------------------------------------------- | ------------------- | --------------------------- |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 1 dia               | Treino Full Body            |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 3 dias              | Treino ABC                  |
-| <img src=".github/assets/calendar.png" width="50" height="50"> | 5 dias              | Treino ABCDE                |
-
-- **Full Body**: Treino que trabalha o corpo todo em uma única sessão.
-- **ABC**: Divisão do treino em três dias, cada um focado em grupos musculares diferentes.
-- **ABCDE**: Divisão do treino em cinco dias, com foco ainda mais específico em cada grupo muscular.
-
----
-
-## 🏋️ Tipos de Exercícios
-
-A terceira regra envolve a escolha do tipo de exercício preferido. Aqui estão algumas categorias com exemplos:
-
-| **Imagem**                                                       | **Tipo de Treino** | **Descrição**                                                                                                 |
-| ---------------------------------------------------------------- | ------------------ | ------------------------------------------------------------------------------------------------------------- |
-| <img src=".github/assets/dumbells.png" width="50%" height="50%"> | **Funcional**      | Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.                                |
-| <img src=".github/assets/4760665.png" width="50%" height="50%">  | **Maquinário**     | Exercícios feitos em máquinas, com foco em isolar grupos musculares.                                          |
-| <img src=".github/assets/barr.png" width="50%" height="50%">     | **Peso Livre**     | Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente. |
-| <img src=".github/assets/cardio.png" width="50%" height="50%">   | **Cardio**         | Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.                     |
-| <img src=".github/assets/hiit.png" width="50%" height="50%">     | **HIIT**           | Treinos intervalados de alta intensidade, ótimos para queima de gordura.                                      |
-
----
-
-## 🛠️ Regras de negócio
-
-1. **Identifique seu biotipo corporal** consultando a seção de biotipos.
-2. **Determine quantos dias por semana você pode treinar** e escolha o tipo de treino mais adequado.
-3. **Selecione o tipo de exercício** que prefere realizar e que se encaixa melhor nos seus objetivos.
-4. Use o prompt do assistente para gerar um plano de treino personalizado.
-
----
-
-## 📖 Material de Apoio
-
-Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de prompt engineering:
-
-- [Fundamentos de Engenharia de prompt](https://elidianaandrade.gitbook.io/fundamentos-de-engenharia-de-prompts-com-claude-3)
-- [Boas práticas de prompt](https://aline-antunes.gitbook.io/otimize-seus-prompts-e-aprenda-mais-usando-ias-1)
-
----
-
-## 🎯 Prompt de Resposta Proposto
